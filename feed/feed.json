@@ -19,6 +19,14 @@
 		}
 		,
 		{
+			"id": "https://pandamakes.me/posts/20250417-git-log-before-after/",
+			"url": "https://pandamakes.me/posts/20250417-git-log-before-after/",
+			"title": "WTF `git log --before/--until`",
+			"content_html": "<p>In the same <a href=\"https://www.youtube.com/watch?v=xEfDMjogJnw\">video</a> by <a href=\"https://www.youtube.com/@anthonywritescode\">anthony</a>, I learnt of <code>git log --before/--until=&lt;date&gt;</code>. Man page reads:</p>\n<pre class=\"language-sh\" tabindex=\"0\"><code class=\"language-sh\">       <span class=\"token parameter variable\">--until</span><span class=\"token operator\">=</span><span class=\"token operator\">&lt;</span>date<span class=\"token operator\">></span>, <span class=\"token parameter variable\">--before</span><span class=\"token operator\">=</span><span class=\"token operator\">&lt;</span>date<span class=\"token operator\">></span>\n           Show commits older than a specific date.</code></pre>\n<p>How is it that I only learn about this just now =/.</p>\n",
+			"date_published": "2025-04-17T00:00:00Z"
+		}
+		,
+		{
 			"id": "https://pandamakes.me/posts/20240814-browser-cache/",
 			"url": "https://pandamakes.me/posts/20240814-browser-cache/",
 			"title": "Browser cache is... weird",
