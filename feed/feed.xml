@@ -4,12 +4,27 @@
 	<subtitle>web developer, photographer, panda</subtitle>
 	<link href="https://pandamakes.me/feed/feed.xml" rel="self"/>
 	<link href="https://pandamakes.me/"/>
-	<updated>2024-08-14T00:00:00Z</updated>
+	<updated>2025-04-17T00:00:00Z</updated>
 	<id>https://pandamakes.me/</id>
 	<author>
 		<name>panda</name>
 		<email>panda@pandamakes.me</email>
 	</author>
+	
+	<entry>
+		<title>Super useful utility `/bin/time`</title>
+		<link href="https://pandamakes.me/posts/20250417-useful-util/"/>
+		<updated>2025-04-17T00:00:00Z</updated>
+		<id>https://pandamakes.me/posts/20250417-useful-util/</id>
+		<content type="html">&lt;p&gt;I recently came across &lt;a href=&quot;https://www.youtube.com/@anthonywritescode&quot;&gt;anthony&lt;/a&gt;&#39;s &lt;a href=&quot;https://www.youtube.com/watch?v=xEfDMjogJnw&quot;&gt;video&lt;/a&gt; on debugging a OOM process.&lt;/p&gt;
+&lt;p&gt;It should be noted that in ubuntu, it is &lt;code&gt;/bin/time&lt;/code&gt;, and &lt;a href=&quot;https://askubuntu.com/a/1459770&quot;&gt;not&lt;/a&gt; the default &lt;code&gt;time&lt;/code&gt; binary.&lt;/p&gt;
+&lt;p&gt;This gives me a super easy way to demonstrate memory usage of a process (one off script or webserver) with:&lt;/p&gt;
+&lt;pre class=&quot;language-sh&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;/bin/time &lt;span class=&quot;token parameter variable&quot;&gt;-v&lt;/span&gt; uvicorn app:app&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;vs&lt;/p&gt;
+&lt;pre class=&quot;language-sh&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;FLAG&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;SET
+/bin/time &lt;span class=&quot;token parameter variable&quot;&gt;-v&lt;/span&gt; uvicorn app:app&lt;/code&gt;&lt;/pre&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Browser cache is... weird</title>
